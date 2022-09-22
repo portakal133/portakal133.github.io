@@ -3,6 +3,7 @@ function temajs() {
     document.title = "spooky";
     var audio = new Audio('ses/iskelet.mp3');
     audio.play();
+    
 }
 
 
