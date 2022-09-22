@@ -23,6 +23,8 @@ function yenisekmedeac(url) {
    }
 function tema() {
     document.body.style.backgroundImage = "url('foto/wallpaper.jpg')";
-
+    document.title = "spooky";
+    var audio = new Audio('ses/iskelet.mp3');
+    audio.play();
   }
    
