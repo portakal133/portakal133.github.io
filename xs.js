@@ -1,3 +1,14 @@
+function temajs() {
+    document.body.style.backgroundImage = "url('foto/wallpaper.jpg')";
+    document.title = "spooky";
+    var audio = new Audio('ses/iskelet.mp3');
+    audio.play();
+}
+
+
+
+
+
 
 function yenisekmedeac(url) {
     var win = window.open(url, '_blank');
@@ -21,10 +32,5 @@ function yenisekmedeac(url) {
    }
     return result;
    }
-function temajs() {
-    document.body.style.backgroundImage = "url('foto/wallpaper.jpg')";
-    document.title = "spooky";
-    var audio = new Audio('ses/iskelet.mp3');
-    audio.play();
-}
+
    
