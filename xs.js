@@ -21,4 +21,8 @@ function yenisekmedeac(url) {
    }
     return result;
    }
+function tema() {
+    document.body.style.backgroundImage = "url('foto/wallpaper.jpg')";
+
+  }
    
