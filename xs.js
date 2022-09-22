@@ -21,7 +21,7 @@ function yenisekmedeac(url) {
    }
     return result;
    }
-function tema() {
+function temajs() {
     document.body.style.backgroundImage = "url('foto/wallpaper.jpg')";
     document.title = "spooky";
     var audio = new Audio('ses/iskelet.mp3');
