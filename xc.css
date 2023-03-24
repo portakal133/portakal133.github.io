@@ -3,3 +3,39 @@
     cursor: url(foto/cursor.png), auto;
     
   }  
+ 
+ .css-3d-text {
+    font-size: 115px;
+    color: #49aaff;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(199, 204, 255),
+                 1px -1px 0 rgb(0, 22, 103),
+                 2px -2px 0 rgb(189, 242, 255),
+                 3px -3px 0 rgb(73, 62, 225),
+                 4px -4px 0 rgb(85, 136, 255),
+                 5px -5px 0 rgb(129, 215, 255),
+                 6px -6px 0 rgb(88, 91, 252),
+                 7px -7px 0 rgb(59,-3,0),
+                 8px -8px 0 rgb(52,-10,0),
+                 9px -9px 0 rgb(45,-17,0),
+                 10px -10px 0 rgb(38,-24,0),
+                 11px -11px 0 rgb(31,-31,0),
+                 12px -12px 0 rgb(23,-39,0),
+                 13px -13px 0 rgb(16,-46,0),
+                 14px -14px 0 rgb(9,-53,0),
+                 15px -15px 0 rgb(2,-60,0),
+                 16px -16px 0 rgb(-5,-67,0),
+                 17px -17px 0 rgb(-13,-75,0),
+                 18px -18px 0 rgb(-20,-82,0),
+                 19px -19px 0 rgb(-27,-89,0),
+                 20px -20px 0 rgb(-34,-96,0),
+                 21px -21px 0 rgb(-41,-103,0),
+                 22px -22px 0 rgb(-49,-111,0),
+                 23px -23px 0 rgb(-56,-118,0),
+                 24px -24px 0 rgb(-63,-125,0),
+                 25px -25px  0 rgb(-70,-132,0),
+                 26px -26px 25px rgba(0,0,0,0.6),
+                 26px -26px 1px rgba(0,0,0,0.5),
+                 0px 0px 25px rgba(0,0,0,.2);
+ }
+
