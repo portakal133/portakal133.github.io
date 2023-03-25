@@ -67,3 +67,6 @@ function yenisekmedeac(url) {
     delayMouseFollow();
 });
 
+function myFunction() {
+    alert("hackmek83#6991");
+  }
