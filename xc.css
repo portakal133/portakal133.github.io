@@ -1,6 +1,6 @@
 
-  body{
-    cursor: url(foto/cursor.png), auto;
+  html{
+    cursor: none;
     
   }  
  
@@ -173,6 +173,8 @@
                7px 7px 0 rgb(-101,130,147),
                8px 8px 0 rgb(-114,117,134),
                0px 0px 11px rgba(0,0,0,.2);
+
+    
 }
 
 html,
@@ -194,11 +196,12 @@ body {
     border: none;
     outline: none;
     color: #fff;
-    background: #e2f6ff;
+    background: #ffffff00;
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 10px;
+    cursor: none;
 }
 
 .glow-on-hover:before {
@@ -213,21 +216,25 @@ body {
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
-    opacity: 1;
+    opacity: 0.4;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
+    cursor: none;
 }
 
 .glow-on-hover:active {
     color: #ffffff
+    
 }
 
 .glow-on-hover:active:after {
     background: transparent;
+    cursor: none;
 }
 
 .glow-on-hover:hover:before {
     opacity: 1;
+    cursor: none;
 }
 
 .glow-on-hover:after {
@@ -240,6 +247,7 @@ body {
     left: 0;
     top: 0;
     border-radius: 20px;
+    cursor: none;
 }
 
 @keyframes glowing {
@@ -247,4 +255,60 @@ body {
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+
+
+
+ #mouse-circle {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin: -16px 0 0 -16px;
+    border: 5px solid #34b5ff43;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+
+.textsss {
+    
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 1em;
+    font-weight: 700;
+    color: #55dbf2;
+    text-shadow: 1px 1px 1px #229fff,
+        1px 2px 1px #2497ee,
+        1px 3px 1px #2084d1,
+        1px 4px 1px #1a6eae,
+        1px 5px 1px #0d558b,
+
+
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.textssss {
+    
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 5em;
+    font-weight: 700;
+    color: #55dbf2;
+    text-shadow: 1px 1px 1px #229fff,
+        1px 2px 1px #2497ee,
+        1px 3px 1px #2084d1,
+        1px 4px 1px #1a6eae,
+        1px 5px 1px #0d558b,
+
+
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+
 
