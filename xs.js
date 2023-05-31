@@ -70,3 +70,10 @@ function yenisekmedeac(url) {
 function myFunction() {
     alert("hackmek83#6991");
   }
+  
+  
+  
+  
+  
+  
+  
